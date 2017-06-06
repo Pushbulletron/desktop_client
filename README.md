@@ -7,3 +7,5 @@ This is App is built to separate Pushbullet messages to separate devices.
 Added Feature:
 - Message Query Based on: time range (2 timeframe), keyword, devices, etc.
 - Export as CSV / other formats
+
+Test merge conflict behavior.
