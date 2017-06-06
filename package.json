@@ -4,6 +4,8 @@
   "main": "main.js",
   "devDependencies": {
     "electron": "^1.6.10",
+    "enum": "^2.4.0",
+    "requirejs": "^2.3.3",
     "spectron": "^3.6.4"
   },
   "dependencies": {

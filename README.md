@@ -13,11 +13,17 @@ Added Feature:
 Do not use the ```function``` keyword to declare classes as follows; instead use the ```class``` keyword throughout:
 ```
 class ClassCar {
-  drive () {
-    console.log('Vroom!');
-  }
+	drive () {
+		console.log('Vroom!');
+	}
 }
 
 const car1 = new ClassCar();
 console.log(car1.drive());
 ```
+
+**Variable declarations:**
+
+- ```enums``` and ```const```: ```FOO_BAR```
+- ```var``` and ```function```: ```foo_bar```
+- ```class```: ```CamelCase```
