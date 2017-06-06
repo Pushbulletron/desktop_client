@@ -1,5 +1,11 @@
 {
-  "name"    : "Pushbulletron",
-  "version" : "0.0.1",
-  "main"    : "main.js"
+  "name": "Pushbulletron",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {
+    "spectron": "^3.6.4"
+  },
+  "dependencies": {
+    "mocha": "^3.4.2"
+  }
 }
