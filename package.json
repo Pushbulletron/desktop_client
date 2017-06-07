@@ -5,10 +5,10 @@
   "devDependencies": {
     "electron": "^1.6.10",
     "enum": "^2.4.0",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0",
     "requirejs": "^2.3.3",
     "spectron": "^3.6.4"
   },
-  "dependencies": {
-    "mocha": "^3.4.2"
-  }
+  "dependencies": {}
 }

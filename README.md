@@ -27,3 +27,18 @@ console.log(car1.drive());
 - ```enums``` and ```const```: ```FOO_BAR```
 - ```var``` and ```function```: ```foo_bar```
 - ```class```: ```CamelCase```
+
+### Documentation convention
+
+```
+/**
+ * @param {number} timestamp - this is the timestamp in UNIX time
+ * @return {Array<Object>} pushes - array of Object as described by 
+ * Pushbullet Push documentation: https://docs.pushbullet.com/#push
+ */
+get_pushes(timestamp){
+
+}
+```
+
+Read more: https://esdoc.org/
