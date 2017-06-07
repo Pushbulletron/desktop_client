@@ -1,6 +1,7 @@
 # directories
 node_modules
 doc
+Pushbulletron-win32-x64
 
 # files
 package-lock.json
