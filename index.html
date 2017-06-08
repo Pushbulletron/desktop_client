@@ -1,1 +1,85 @@
-<h1>Pushbulletron</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pushbulletron</title>
+    <link rel="stylesheet" href="css/pure-min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/pushbulletron.css">
+</head>
+<body>
+    <div class="pure-g pb-container">
+        <div class="pure-u-1-4 pb-devices">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#" class="pb-device pure-menu-link">MI 2</a></li>
+                <li class="pure-menu-item"><a href="#" class="pb-device pure-menu-link">MacBook Air</a></li>
+                <li class="pure-menu-item"><a href="#" class="pb-device pure-menu-link">Tablet</a></li>
+            </ul>
+        </div>
+
+        <div class="pure-u-3-4 pb-pushes-window">
+            <div class="pure-g">
+                <div class="pure-u-3-8 pb-pushes-query">
+                    <div class="pure-menu pure-menu-horizontal">
+                        <ul class="pure-menu-list pb-query-dropdown">
+                            <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                                <a href="#" id="menuLink1" class="pure-menu-link">Timeframe Query</a>
+                                <ul class="pure-menu-children">
+                                    <li class="pure-menu-item">
+                                        <div class="pure-menu pure-menu-scrollable pb-query-options">
+                                            <ul class="pure-menu-list">
+                                                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Weekly</a></li>
+                                                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Daily</a></li>
+                                                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Custom Range: 2 days</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="pure-menu pure-menu-scrollable pb-query-results">
+                        <ul class="pure-menu-list">
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Jan</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Feb</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Mar</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Apr</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Jun</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Jul</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Aug</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sept</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Oct</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Nov</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Dec</a></li>
+                        </ul>
+                    </div>
+
+                    <button class="pure-button pb-export-btn">
+                        <i class="fa fa-download"></i>
+                        Export
+                    </button>
+                </div>
+
+                <div class="pure-u-5-8 pb-pushes-display">
+                    <form class="pure-form">
+                        <span class="fa fa-search"></span>
+                        <input type="text" placeholder="Search Pushes Here...">
+                    </form>
+                    <div class="pure-menu pure-menu-scrollable pb-pushes-results">
+                        <ul class="pure-menu-list">
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">mes1</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">mes1</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">mes1</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">mes1</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">mes1</a></li>
+                            <li class="pure-menu-item"><a href="#" class="pure-menu-link">mes1</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

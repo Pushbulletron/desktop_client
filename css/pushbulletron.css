@@ -1,0 +1,78 @@
+html, body, .pb-container {
+    height: 100%;
+}
+
+div.pb-devices {
+    background: rgb(50,50,50);
+    float: left;
+    height: 100%;
+    border-right: solid 4px rgb(30,30,30);
+    box-sizing: border-box;
+}
+
+a.pb-device {
+    padding: 25px;
+    color: #fff;
+}
+
+a.pb-device:hover {
+    color: #000;
+}
+
+.pb-pushes-query ul, li {
+    width: 100%;
+}
+
+.pb-pushes-window, .pb-pushes-display {
+    padding: 10px 5px 10px 10px;
+    box-sizing: border-box;
+}
+
+.pb-pushes-query li a {
+    padding: 20px;
+}
+
+.pb-query-dropdown {
+    background: rgb(230,230,230);
+    margin: 0 0 20px 0;
+}
+
+.pb-query-dropdown ul.pure-menu-children {
+    box-sizing: border-box;
+}
+
+.pb-query-options {
+    max-height: 200px;
+    border: solid 1px;
+    border-radius: 4px;
+}
+
+.pb-query-results {
+    max-height: 350px;
+    border: solid 1px;
+}
+
+.pb-export-btn {
+    margin: 10px 0 0 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.pb-pushes-display form input {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.pb-pushes-display .fa-search {
+    position: absolute;
+    top: 36px;
+    right: 20px;
+    z-index: 1;
+}
+
+.pb-pushes-results {
+    margin: 10px 0 0 0;
+    border: 1px solid gray;
+    max-height: 450px;
+}
